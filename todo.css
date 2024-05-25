@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+}
+div{
+    background-color: rgb(46, 45, 45);
+    height: 100vh;
+    color: aliceblue;
+    align-items: center a;
+}
+#input{
+    background-color: aqua;
+}
