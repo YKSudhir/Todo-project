@@ -4,20 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo</title>
-    <link rel="stylesheet" href="todo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel = "stylesheet" href="todo.css">
 </head>
 <body>
-<div>
+<div class="container-fluid">
     <h2>Todo App</h2>
+    <div class="add-element">
+        <input id = "input" placeholder="Add item">
+        <button class ="btn btn-dark">add</button> 
+    </div>
+    <div class="item">
+        <ul>
+            <li>Eat <button class = "delete btn btn-dark">delete </button></li>
+            <li>Mango <button class = "delete btn btn-dark">delete </button></li>
+        </ul>
+    </div>
     
-    <input id = "input" placeholder="Add item">
-    <button>add</button> 
-    <ul>
-        <li>Eat <button class = "delete">delete </button></li>
-        <li>Mango <button class = "delete">delete </button></li>
-    </ul>
 </div>
    
     <script src="todo.js"></script>
+    <script src = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -1,12 +1,42 @@
-*{
-    margin: 0;
-}
-div{
-    background-color: rgb(46, 45, 45);
+.container-fluid{
+    background-color: rgba(33, 42, 42, 0.5);
     height: 100vh;
-    color: aliceblue;
-    align-items: center a;
+}
+.btn-dark{
+    margin-left: 2rem;
+    font-weight: 600;
+}
+.add-element{
+    display: flex;
+    padding-right:4rem;
+    position: absolute;
 }
 #input{
-    background-color: aqua;
+    border: none;
+    border-radius: 0.3rem;
+}
+.delete{
+    border: none;
+    border-radius: 0.3rem;
+    width: 6rem;
+    margin-bottom: 3rem;
+    border-color: aliceblue;
+}
+.item{
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+    font-weight: 650;
+}
+.delete{
+    position: absolute;
+    margin: .5rem;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    height: 2rem;
+    left: 13rem;
+    border-color: aliceblue;
+}
+h2{
+    font-weight: 800;
 }
